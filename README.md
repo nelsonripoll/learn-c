@@ -69,3 +69,53 @@ A string is an array of characters ended with a null character\(\\0\). This null
 1. Arithmetic operators: +, -, *, / ...
 2. Relational operators: =, <, >, ...
 3. Logical operators: &&, ||
+
+## Data Types
+
+### Fundamental Data Types
+
+1. Integer
+2. Floating
+3. Double
+4. Character
+
+#### Modifiers
+
+1. Short
+2. Long
+3. Signed
+4. Unsigned
+
+### Derived Data Types
+
+1. Arrays
+2. Pointers
+3. Structures
+4. Enumeration
+
+## Functions
+
+### Library Functions
+
+Predefined functions available to programmers.
+
+1. main()
+2. printf()
+3. scanf()
+4. strlen()
+5. sqrt()
+
+### User-Defined Functions
+
+C allows programmers to define their own function according to their requirement.
+
+```
+return_type function_name (parameter list) {
+  // statements
+}
+```
+
+Parameters can be called by value or by reference. Calling by value means you 
+ pass in the value of the variable and a copy is made to be used within the
+ function. Calling by reference means you are passing in the address in memory
+ of the variable.
