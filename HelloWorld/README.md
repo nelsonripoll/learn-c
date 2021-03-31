@@ -1,10 +1,13 @@
 # Hello, World
 
+## Preprocessor Directive
+
 ```
 #include<stdio.h>
 ```
 
-http://www.cplusplus.com/reference/cstdio/
+This is used to include the [stdio](http://www.cplusplus.com/reference/cstdio/) system header file.
+
 
 ```
 int main() {
@@ -16,9 +19,15 @@ int main() {
 http://www.cplusplus.com/reference/cstdio/printf/
 
 
-command-line
+## Compile & Run
+
+compile
 ```
 gcc -o hello hello.c
+```
+
+run
+```
 ./hello
 ```
 
