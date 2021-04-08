@@ -119,3 +119,15 @@ Parameters can be called by value or by reference. Calling by value means you
  pass in the value of the variable and a copy is made to be used within the
  function. Calling by reference means you are passing in the address in memory
  of the variable.
+
+## Arrays
+
+```
+data_type array_name[array_size];
+
+int age[5] = {10, 20, 30, 40, 50};
+char c[10] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'};
+
+printf("%d", age[3]); // prints 40
+scanf("%d", &age[0]); // reassign first index (10)
+```
